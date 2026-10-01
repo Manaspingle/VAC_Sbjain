@@ -1,0 +1,18 @@
+body {
+	min-height: 100vh;
+	background-color: #f5f7fa;
+}
+
+main > .row > div {
+	background: #fff;
+	border: 1px solid #e5e9ef;
+	border-radius: 8px;
+	padding: 2rem;
+	box-shadow: 0 8px 24px rgb(25 42 70 / 6%);
+}
+
+@media (max-width: 575.98px) {
+	main > .row > div {
+		padding: 1.25rem;
+	}
+}
